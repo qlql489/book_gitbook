@@ -62,6 +62,8 @@ gitbook init
     └── page2.md
 ```
 
+如果文件夹中是空的，GitBook会帮你初试化这两个文件
+
 这时已经能用GItBook客户端导入了，不过还打不开
 
 ![](/assets/image2.png)
