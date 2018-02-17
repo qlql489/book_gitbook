@@ -64,5 +64,25 @@ gitbook init
 
 这时已经能用GItBook客户端导入了，不过还打不开
 
-![](/assets/image2.png)![](/assets/image1.png)![](/assets/image1.png)
+![](/assets/image2.png)
+
+需要提交Git仓库后才能打开
+
+在github中新建一个名字一样的仓库test1
+
+然后在刚才的文件夹中执行
+
+`git init 初试化本地仓库`
+
+`git add -A 添加所有文件`
+
+`git commit -m "gitbook" 保存一下`
+
+没有设置远程仓库的需要设置一下
+
+`git remote add origin https://github.com/{username}/test1`
+
+`git push origin master`
+
+然后输入gitbug的邮箱和密码推送成功。
 
