@@ -71,18 +71,15 @@ gitbook init
 在github中新建一个名字一样的仓库test1
 
 然后在刚才的文件夹中执行
-
-`git init 初试化本地仓库`
-
-`git add -A 添加所有文件`
-
-`git commit -m "gitbook" 保存一下`
-
+```
+git init  //初试化本地仓库
+git add -A //添加所有文件
+git commit -m "gitbook" //保存一下
+```
 没有设置远程仓库的需要设置一下
-
-`git remote add origin https://github.com/{username}/test1`
-
-`git push origin master`
-
-然后输入gitbug的邮箱和密码推送成功。
+```
+git remote add origin https://github.com/{username}/test1
+git push origin master
+```
+然后输入github的邮箱和密码推送成功。
 
