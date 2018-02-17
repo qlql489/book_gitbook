@@ -53,9 +53,9 @@ gitbook init
 ├── README.md
 ├── SUMMARY.md
 ├── chap1
-│   ├── README.md
-│   ├── page1.md
-│   └── page2.md
+│   ├── README.md
+│   ├── page1.md
+│   └── page2.md
 └── chap2
     ├── README.md
     ├── page1.md
@@ -64,7 +64,5 @@ gitbook init
 
 这时已经能用GItBook客户端导入了，不过还打不开
 
-![](/assets/image.png)
-
-
+![](/assets/屏幕快照 2018-02-17 下午3.37.52.png)
 
