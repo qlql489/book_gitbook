@@ -85,9 +85,7 @@ git remote add origin https://github.com/{username}/test1
 git push origin master
 ```
 
-然后输入github的邮箱和密码推送成功 
+然后输入github的邮箱和密码推送成功
 
-这时可以使用GitBook客户端来编辑了，当然可以用逼得markdown编辑器编辑 
-
-
+这时可以使用GitBook客户端来编辑了，当然可以用别的markdown编辑器编辑
 
