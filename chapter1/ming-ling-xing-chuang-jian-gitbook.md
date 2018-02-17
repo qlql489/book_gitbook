@@ -66,7 +66,7 @@ gitbook init
 
 ![](/assets/image2.png)
 
-需要提交Git仓库后才能打开
+需要提交到Git仓库后才能打开
 
 在github中新建一个名字一样的仓库test1
 
