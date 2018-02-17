@@ -30,7 +30,7 @@ vim SUMMARY.md
 ```
 
 SUMMARY中填写文章的结构
-
+```
 * [简介](README.md)
 * [第一章](chap1/README.md)
  - [第一节](chap1/page1.md)
@@ -38,6 +38,7 @@ SUMMARY中填写文章的结构
 * [第二章](chap2/README.md)
  - [第一节](chap2/page1.md)
  - [第二节](chap2/page2.md)
+ ```
 
 
 
