@@ -64,5 +64,5 @@ gitbook init
 
 这时已经能用GItBook客户端导入了，不过还打不开
 
-![](/assets/image.png)
+![](/assets/image2.png)![](/assets/image1.png)![](/assets/image1.png)
 
