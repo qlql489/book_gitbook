@@ -18,7 +18,7 @@
 sudo npm install gitbook-cli
 ```
 
-安装成功后输入gitbook -V可以看到版本信息 
+安装成功后输入gitbook -V可以看到版本信息
 
 创建文件夹并新建文件README.md和SUMMARY.md
 
@@ -30,6 +30,7 @@ vim SUMMARY.md
 ```
 
 SUMMARY中填写文章的结构
+
 ```
 * [简介](README.md)
 * [第一章](chap1/README.md)
@@ -38,7 +39,32 @@ SUMMARY中填写文章的结构
 * [第二章](chap2/README.md)
  - [第一节](chap2/page1.md)
  - [第二节](chap2/page2.md)
- ```
+```
+
+然后执行
+
+```
+gitbook init
+```
+
+会生成GitBook电子书的文件结构
+
+```
+├── README.md
+├── SUMMARY.md
+├── chap1
+│   ├── README.md
+│   ├── page1.md
+│   └── page2.md
+└── chap2
+    ├── README.md
+    ├── page1.md
+    └── page2.md
+```
+
+这时已经能用GItBook客户端导入了，不过还打不开
+
+![](/assets/image.png)
 
 
 
