@@ -6,39 +6,53 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
 
 介绍几个插件
 
-* atoc目录
+* 浮动目录导航
 
 ```
 {
-    "plugins": ["atoc"],
+    "plugins": ["anchor-navigation-ex"],
     "pluginsConfig": {
-        "atoc": {
-            "addClass": true,
-            "className": "atoc"
-        }
+        "anchor-navigation-ex": {
+	   	"showLevel": false,
+		"associatedWithSummary": true,
+		"printLog": true,
+		"multipleH1": true,
+		"mode": "float",
+		"float": {
+                    "showLevelIcon": false,
+                    "level1Icon": "fa fa-hand-o-right",
+                    "level2Icon": "fa fa-hand-o-right",
+                    "level3Icon": "fa fa-hand-o-right"
+		}
+	}
     }
 }
 ```
+
+点击目录能能够直接跳转
+
+![](/assets/屏幕快照 2018-02-18 下午6.52.31.png)
+
+详细的配置参考https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md
 
 * 打赏插件
 
 ```
 {
-	"plugins": [
-	    "donate"
-	],
-	"pluginsConfig": {
-	    "donate": {
-	        "wechat": "https://zhangjikai.com/resource/weixin.png",
-	        "alipay": "https://zhangjikai.com/resource/alipay.png",
-	        "title": "打赏吧",
-	        "button": "您的打赏是我的动力",
-	        "alipayText": "支付宝打赏",
-	        "wechatText": "微信打赏"
-	    }
+    "plugins": [
+        "donate"
+    ],
+    "pluginsConfig": {
+        "donate": {
+            "wechat": "微信二维码图片地址",
+            "alipay": "支付宝二维码图片地址",
+            "title": "打赏吧",
+            "button": "您的打赏是我的动力",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        }
 }
 ```
-
 
 
 
