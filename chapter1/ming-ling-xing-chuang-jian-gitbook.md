@@ -89,7 +89,9 @@ git push origin master
 
 然后输入github的邮箱和密码推送成功
 
-这时可以使用GitBook客户端来编辑了，当然可以用别的markdown编辑器编辑
+或者先在github中新建一个仓局clone到本地，然后再文件夹中执行gitbook init 提交步骤相同
+
+这时可以使用GitBook客户端来编辑了，当然可以用别的markdown编辑器编辑 
 
 
 
