@@ -91,7 +91,11 @@ git push origin master
 
 或者先在github中新建一个仓局clone到本地，然后再文件夹中执行gitbook init 提交步骤相同
 
-这时可以使用GitBook客户端来编辑了，当然可以用别的markdown编辑器编辑 
+这时可以使用GitBook客户端来编辑了，当然可以用别的markdown编辑器编辑
 
+编辑完后在命令行执行 
 
+`gitbook serve`
+
+在浏览器中访问http://localhost:4000/ 即可在本地看电子书
 
