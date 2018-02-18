@@ -31,8 +31,8 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
 	    "donate": {
 	        "wechat": "https://zhangjikai.com/resource/weixin.png",
 	        "alipay": "https://zhangjikai.com/resource/alipay.png",
-	        "title": "",
-	        "button": "赏",
+	        "title": "打赏吧",
+	        "button": "您的打赏是我的动力",
 	        "alipayText": "支付宝打赏",
 	        "wechatText": "微信打赏"
 	    }
