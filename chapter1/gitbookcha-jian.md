@@ -13,18 +13,18 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
     "plugins": ["anchor-navigation-ex"],
     "pluginsConfig": {
         "anchor-navigation-ex": {
-	   	"showLevel": false,
-		"associatedWithSummary": true,
-		"printLog": true,
-		"multipleH1": true,
-		"mode": "float",
-		"float": {
+           "showLevel": false,
+        "associatedWithSummary": true,
+        "printLog": true,
+        "multipleH1": true,
+        "mode": "float",
+        "float": {
                     "showLevelIcon": false,
                     "level1Icon": "fa fa-hand-o-right",
                     "level2Icon": "fa fa-hand-o-right",
                     "level3Icon": "fa fa-hand-o-right"
-		}
-	}
+        }
+    }
     }
 }
 ```
@@ -33,7 +33,7 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
 
 ![](/assets/屏幕快照 2018-02-18 下午6.52.31.png)
 
-详细的配置参考https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md
+详细的配置参考[https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md)
 
 * 打赏插件
 
