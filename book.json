@@ -1,0 +1,43 @@
+{
+    "plugins": ["atoc"],
+    "plugins": [ "simple-page-toc" ],
+    "plugins": ["-lunr", "-search", "search-plus"],
+    "plugins": ["advanced-emoji"],
+    "plugins": ["-sharing", "sharing-plus"],
+    
+    "pluginsConfig": {
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+        "sharing": {
+	       "douban": false,
+	       "facebook": false,
+	       "google": true,
+	       "hatenaBookmark": false,
+	       "instapaper": false,
+	       "line": true,
+	       "linkedin": true,
+	       "messenger": false,
+	       "pocket": false,
+	       "qq": false,
+	       "qzone": true,
+	       "stumbleupon": false,
+	       "twitter": false,
+	       "viber": false,
+	       "vk": false,
+	       "weibo": true,
+	       "whatsapp": false,
+	       "all": [
+	           "facebook", "google", "twitter",
+	           "weibo", "instapaper", "linkedin",
+	           "pocket", "stumbleupon"
+	       ]
+	   },
+	   "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+       }
+    }
+}
+
