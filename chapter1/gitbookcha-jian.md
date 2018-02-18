@@ -21,19 +21,21 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
 ```
 
 * 打赏插件
+
 ```
-"plugins": [
-    "donate"
-],
-"pluginsConfig": {
-    "donate": {
-        "wechat": "https://zhangjikai.com/resource/weixin.png",
-        "alipay": "https://zhangjikai.com/resource/alipay.png",
-        "title": "",
-        "button": "赏",
-        "alipayText": "支付宝打赏",
-        "wechatText": "微信打赏"
-    }
+{
+	"plugins": [
+	    "donate"
+	],
+	"pluginsConfig": {
+	    "donate": {
+	        "wechat": "https://zhangjikai.com/resource/weixin.png",
+	        "alipay": "https://zhangjikai.com/resource/alipay.png",
+	        "title": "",
+	        "button": "赏",
+	        "alipayText": "支付宝打赏",
+	        "wechatText": "微信打赏"
+	    }
 }
 ```
 
