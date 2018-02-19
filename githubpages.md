@@ -12,13 +12,14 @@ GitHubPages是GitHub提供的免费的静态资源服务器，搭建简单，不
 
 新建好项目后clone到本地，然后添加一个测试的html文件
 
+```
 &lt;html&gt;
 
-&lt;body&gt;
+	&lt;body&gt;
 
-test
+		test
 
-&lt;/body&gt;
+	&lt;/body&gt;
 
 &lt;/html&gt;
-
+```
