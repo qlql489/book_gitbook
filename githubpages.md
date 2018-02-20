@@ -22,7 +22,7 @@ GitHubPages是GitHub提供的免费的静态资源服务器，搭建简单，不
 </html>
 ```
 
-访问自己的域名 https://qlql489.github.io/
+访问自己的域名 [https://qlql489.github.io/](https://qlql489.github.io/)
 
 看到显示test
 
@@ -30,7 +30,7 @@ GitHubPages是GitHub提供的免费的静态资源服务器，搭建简单，不
 
 hexo是一款基于Node.js的静态博客框架，需要安装nodejs环境
 
-详情可以参考https://www.jianshu.com/p/35e197cb1273 写的很全
+详情可以参考[https://www.jianshu.com/p/35e197cb1273](https://www.jianshu.com/p/35e197cb1273) 写的很全
 
 主要步骤
 
@@ -56,9 +56,66 @@ $ ssh-keygen -t rsa -C "邮件地址@youremail.com"
 
 将id\_rsa.pub的内容复制到文本框内，保存
 
+输入
 
+```
+ssh -T git@GitHub.com
+```
 
+提示
 
+```
+The authenticity of host 'github.com (192.30.255.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? 
+```
 
+输入yes
 
+在hexo的配置文件\_config.yml中配置你的git的ssh地址
 
+```
+deploy:
+ type: git
+ repo: git@github.com:qlql489/qlql489.github.io.git
+ branch: master
+```
+### 部署
+执行
+
+```
+
+hexo clean // 删除旧的 public 文件
+hexo g //构建
+部署到git需要安装node组件
+npm install hexo-deployer-git --save
+再执行
+hexo d 
+```
+即可在你的GitHubPages中看到你的博客
+
+![](/assets/屏幕快照 2018-02-19 下午3.24.40.png)
+
+### 新建文章
+```
+hexo new "文章标题"
+```
+会在./source/_posts下生成一个markdown文件
+文件头部有一些配置
+```
+---
+title: 测试
+date: 2018-02-19 12:56:54
+categories: 随笔         #文章的分类，这个可以自己定义
+tags: [Mac,效率,快捷方式]        #tag，为文章添加标签，方便搜索
+---
+```
+下面就是markdown格式的文章了
+### 更换主题
+默认的主题还是比较丑的
+在[官方主题](https://hexo.io/themes/)网页上可以选择其他的样式
+必要的一些功能是需要集成在主题中的，比如：
+- 评论
+- 统计 
+- 爬虫优化
+ 
