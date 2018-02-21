@@ -143,7 +143,7 @@ theme: snippet
 
 #### 参考：
 [增加阅读统计](https://forum.leancloud.cn/t/yong-hu-fen-xiang-shi-yong-leancloud-wei-hexo-bo-ke-tian-jia-wen-zhang-liu-lan-liang-tong-ji-zu-jian/280)  
-[hexo增加SEO](http://blog.csdn.net/qiuchengjia/article/details/52923170)
+[hexo增加SEO](http://blog.csdn.net/qiuchengjia/article/details/52923170)  
 [Hexo安装和配置](https://www.jianshu.com/p/b7886271e21a)
-[使用Hexo搭建博客（四），博客的部件和插件](https://www.jianshu.com/p/739bf1305e66)
+[使用Hexo搭建博客（四），博客的部件和插件](https://www.jianshu.com/p/739bf1305e66)  
 [【干货】2个小时教你hexo博客添加评论、打赏、RSS等功能](https://www.jianshu.com/p/5973c05d7100)
