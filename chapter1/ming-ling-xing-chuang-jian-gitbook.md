@@ -12,7 +12,7 @@
 
 步骤：确保电脑中已经安装nodejs、git，没有安装请自行百度
 
-###安装gitbook-cli
+##安装gitbook-cli
 执行命令安装gitbook-cli
 
 ```
@@ -20,7 +20,7 @@ sudo npm install gitbook-cli
 ```
 
 安装成功后输入gitbook -V可以看到版本信息
-###初始化图书
+## 初始化图书
 
 创建文件夹并新建文件README.md和SUMMARY.md
 
@@ -65,7 +65,7 @@ gitbook init
 ```
 
 如果文件夹中是空的，GitBook会帮你初试化这两个文件
-### 导入GitBook客户端
+## 导入GitBook客户端
 这时已经能用GitBook客户端导入了，不过还打不开
 
 ![](/assets/image2.png)
@@ -94,7 +94,7 @@ git push origin master
 或者先在github中新建一个仓局clone到本地，然后再文件夹中执行gitbook init 提交步骤相同
 
 这时可以使用GitBook客户端来编辑了，当然可以用别的markdown编辑器编辑
-### 本地部署看效果
+## 本地部署看效果
 编辑完后在命令行执行 
 
 `gitbook serve`

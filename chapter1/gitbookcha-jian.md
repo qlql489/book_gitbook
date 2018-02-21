@@ -6,7 +6,7 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
 
 介绍几个插件
 
-### 浮动目录导航
+## 浮动目录导航
 
 ```
 {
@@ -35,7 +35,7 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
 
 详细的配置参考[https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md](https://github.com/zq99299/gitbook-plugin-anchor-navigation-ex/blob/master/doc/config.md)
 
-### 打赏插件
+## 打赏插件
 
 ```
 {
@@ -54,7 +54,7 @@ GitBook有很多开源的插件可以用，插件的安装需要在书籍的文�
 }
 ```
 
-### 代码复制插件
+## 代码复制插件
 
 ```
 {
