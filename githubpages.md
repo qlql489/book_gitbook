@@ -12,13 +12,9 @@ GitHubPages是GitHub提供的免费的静态资源服务器，搭建简单，不
 
 ```
 <html>
-
     <body>
-
         test
-
     </body>
-
 </html>
 ```
 
