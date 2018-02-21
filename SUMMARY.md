@@ -7,4 +7,5 @@
   * [与Git仓库同步](chapter1/yu-github-tong-bu.md)
   * [GitBook插件](chapter1/gitbookcha-jian.md)
 * [GItHubPages](githubpages.md)
+* [eee](eee.md)
 
