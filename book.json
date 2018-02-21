@@ -1,26 +1,17 @@
 {
-    "plugins": ["atoc"],
-    "plugins": [ "simple-page-toc" ],
-    "plugins": ["-lunr", "-search", "search-plus"],
-    "plugins": ["advanced-emoji"],
-    "plugins": ["-sharing", "sharing-plus"],
-    
+    "plugins" : [ "anchor-navigation-ex" ,"-lunr", "-search", "search-plus","advanced-emoji","-sharing", "sharing-plus","copy-code-button","splitter","disqus"],
     "pluginsConfig": {
-        "atoc": {
-            "addClass": true,
-            "className": "atoc"
-        },
         "sharing": {
 	       "douban": false,
 	       "facebook": false,
-	       "google": true,
+	       "google": false,
 	       "hatenaBookmark": false,
 	       "instapaper": false,
-	       "line": true,
+	       "line": false,
 	       "linkedin": true,
 	       "messenger": false,
 	       "pocket": false,
-	       "qq": false,
+	       "qq": true,
 	       "qzone": true,
 	       "stumbleupon": false,
 	       "twitter": false,
@@ -29,15 +20,28 @@
 	       "weibo": true,
 	       "whatsapp": false,
 	       "all": [
-	           "facebook", "google", "twitter",
-	           "weibo", "instapaper", "linkedin",
-	           "pocket", "stumbleupon"
+	           "google", 
+	           "weibo","linkedin"
 	       ]
 	   },
-	   "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-       }
+	   "anchor-navigation-ex": {
+	   	    "showLevel": false,
+		    "associatedWithSummary": true,
+		    "printLog": true,
+		    "multipleH1": true,
+		    "mode": "float",
+		    "float": {
+		        "showLevelIcon": false,
+		        "level1Icon": "fa fa-hand-o-right",
+		        "level2Icon": "fa fa-hand-o-right",
+		        "level3Icon": "fa fa-hand-o-right"
+		    }
+		    
+        },
+       
+       "disqus": {
+            "shortName": "https-qlql489-gitbooks-io"
+        }
+
     }
 }
-
