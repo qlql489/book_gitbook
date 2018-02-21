@@ -125,4 +125,17 @@ tags: [Mac,效率,快捷方式]        #tag，为文章添加标签，方便搜�
 ```
 theme: snippet
 ```
- 
+ 重新构建执行
+```
+ hexo clean && hexo g && hexo s
+ ```
+即可看到效果![](/assets/屏幕快照 2018-02-21 下午12.16.04.png)
+
+如果你懂一些html、css和一些前端打包的知识，就可以动手自己改一下主题了。
+
+修改后的效果 
+
+![](/assets/屏幕快照 2018-02-21 下午8.27.11.png)
+
+参考：
+[增加阅读统计](https://forum.leancloud.cn/t/yong-hu-fen-xiang-shi-yong-leancloud-wei-hexo-bo-ke-tian-jia-wen-zhang-liu-lan-liang-tong-ji-zu-jian/280)
