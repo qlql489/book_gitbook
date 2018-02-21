@@ -1,4 +1,4 @@
-## GitHubPages
+# GitHubPages
 
 GitHubPages是GitHub提供的免费的静态资源服务器，搭建简单，不用自己购买云服务，可以绑定自己购买的域名，用来做个人博客再适合不过
 
