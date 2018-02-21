@@ -118,6 +118,9 @@ tags: [Mac,效率,快捷方式]        #tag，为文章添加标签，方便搜�
 - 评论
 - 统计 
 - 爬虫优化
+- 打赏二维码
+
+有编程基础的可以自己添加想要的功能
 
 以我使用的主题为例：[snippet](https://github.com/shenliyang/hexo-theme-snippet)
 下载下来后重命名文件夹，然后放在themes下![](/assets/1519186355824.jpg)
@@ -137,5 +140,10 @@ theme: snippet
 
 ![](/assets/屏幕快照 2018-02-21 下午8.27.11.png)
 
-参考：
-[增加阅读统计](https://forum.leancloud.cn/t/yong-hu-fen-xiang-shi-yong-leancloud-wei-hexo-bo-ke-tian-jia-wen-zhang-liu-lan-liang-tong-ji-zu-jian/280)
+
+#### 参考：
+[增加阅读统计](https://forum.leancloud.cn/t/yong-hu-fen-xiang-shi-yong-leancloud-wei-hexo-bo-ke-tian-jia-wen-zhang-liu-lan-liang-tong-ji-zu-jian/280)  
+[hexo增加SEO](http://blog.csdn.net/qiuchengjia/article/details/52923170)
+[Hexo安装和配置](https://www.jianshu.com/p/b7886271e21a)
+[使用Hexo搭建博客（四），博客的部件和插件](https://www.jianshu.com/p/739bf1305e66)
+[【干货】2个小时教你hexo博客添加评论、打赏、RSS等功能](https://www.jianshu.com/p/5973c05d7100)
