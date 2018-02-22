@@ -136,6 +136,20 @@ theme: snippet
 
 ![](/assets/屏幕快照 2018-02-21 下午8.27.11.png)
 
+### 绑定域名
+如命可以在阿里云、新网等地方购买，或者在国外的godaddy购买，就是续费贵了一些，但是有更多的后缀可以选择，比如.me .co等
+
+购买好域名后在github的博客项目的设置中填写你要映射的域名![](/assets/屏幕快照 2018-02-22 上午11.07.28.png)
+
+在命令行ping 自己博客的地址得到ip
+![](/assets/屏幕快照 2018-02-22 上午11.10.34.png)
+我使用的是阿里云的域名，在后台设置域名解
+
+![](/assets/屏幕快照 2018-02-22 上午11.03.53.png)
+
+访问设置的域名
+
+![](/assets/屏幕快照 2018-02-22 上午11.29.17.png)
 
 #### 参考：
 [增加阅读统计](https://forum.leancloud.cn/t/yong-hu-fen-xiang-shi-yong-leancloud-wei-hexo-bo-ke-tian-jia-wen-zhang-liu-lan-liang-tong-ji-zu-jian/280)  
